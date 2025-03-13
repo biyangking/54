@@ -3,3 +3,12 @@
 ├── public/
 ├── src/
 └── netlify.toml  # Netlify配置文件（可选）
+
+{
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export", 
+    "start": "next start"
+  }
+}
